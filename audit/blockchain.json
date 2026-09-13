@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-09-13T09:02:11.027806+00:00",
+    "transaction_hash": "GENESIS",
+    "prediction": "GENESIS",
+    "fraud_probability": 0,
+    "risk_score": 0,
+    "risk_level": "GENESIS",
+    "explanation_hash": "GENESIS",
+    "action": "GENESIS",
+    "model_version": "GENESIS",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "ddfdde98b6e20fe493c8e4c501297c071241be7187a6dabcf7082fd59456980d"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-09-13T09:02:44.894972+00:00",
+    "transaction_hash": "32da44f960c1778107011c56067a4a7f38559be2b6273a9f4acdacb957f87567",
+    "prediction": "LEGITIMATE",
+    "fraud_probability": 0.082961,
+    "risk_score": 13.92,
+    "risk_level": "LOW",
+    "explanation_hash": "6446f9accedcf8026899c2a3561321680e4af620ba4c73c933bd85631756b1ef",
+    "action": "APPROVE / MONITOR",
+    "model_version": "v2.0-interactive",
+    "previous_hash": "ddfdde98b6e20fe493c8e4c501297c071241be7187a6dabcf7082fd59456980d",
+    "hash": "e18d14751010eb097a5ea57b3e04e27bb0dacb9f8840a2ac01afd9892ffa0dd0"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-09-13T09:03:11.986767+00:00",
+    "transaction_hash": "1a0d523ee8eb78dc7eb932ec4a8928681c04e8874f9a40ba0fc618e23a070c9e",
+    "prediction": "FRAUD",
+    "fraud_probability": 0.530657,
+    "risk_score": 53.26,
+    "risk_level": "MEDIUM",
+    "explanation_hash": "4fe86f8e4a4eecb20f2c8a26f130069643fef854481d1dea5b57bf84a16748c5",
+    "action": "MANUAL REVIEW",
+    "model_version": "v2.0-interactive",
+    "previous_hash": "e18d14751010eb097a5ea57b3e04e27bb0dacb9f8840a2ac01afd9892ffa0dd0",
+    "hash": "5d8256783e61f791ee082752e75784fc95de773a0bbd6135fc26e0752d06fd14"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-09-13T09:12:03.214994+00:00",
+    "transaction_hash": "32da44f960c1778107011c56067a4a7f38559be2b6273a9f4acdacb957f87567",
+    "prediction": "LEGITIMATE",
+    "fraud_probability": 0.082961,
+    "risk_score": 13.92,
+    "risk_level": "LOW",
+    "explanation_hash": "6446f9accedcf8026899c2a3561321680e4af620ba4c73c933bd85631756b1ef",
+    "action": "APPROVE / MONITOR",
+    "model_version": "v2.0-interactive",
+    "previous_hash": "5d8256783e61f791ee082752e75784fc95de773a0bbd6135fc26e0752d06fd14",
+    "hash": "4bb017e5b6473691fcd8bdc38031ef906063234c79e45209306174fa9bb1bc3a"
+  }
+]
